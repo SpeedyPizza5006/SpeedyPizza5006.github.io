@@ -1,0 +1,104 @@
+#background{
+    background-color:CornflowerBlue;
+    width:100%;
+    height:100%;
+    margin:0px;
+}
+
+span{
+  font-family: "Bad Script";
+  font-size:64px;
+  margin-left:50px;
+  margin-top:20px;
+}
+
+button{
+    float:right;
+    background-color: darkorchid;
+    border:none;
+    margin-left:20px;
+    width:250px;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: "Averia Sans Libre";
+    font-size: 25px;
+}
+
+#topPicture{
+    width:100%;
+    height:30%;
+    object-fit: fill;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height:100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color:white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  @media screen and (max-width:500px) {
+    #topPicture{
+      width:100%;
+      height:30%;
+      object-fit: scale-down;
+  }
+    span{
+      font-family: "Bad Script";
+      display:block;
+      font-size:20px;
+      margin-left:auto;
+      margin-top:2px;
+    }
+    button{
+      display:block;
+      float:left;
+      background-color: darkorchid;
+      border:none;
+      margin-left:20px;
+      margin-top:20px;
+      width:250px;
+      border-radius: 20px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      font-family: "Averia Sans Libre";
+      font-size: 25px;
+  }
+    .responsive {
+      margin-top:10px;
+      padding: 0 6px;
+      float: left;
+      width: 100%;
+    }
+
+    #yours{
+      display:none;
+    }
+
+  }

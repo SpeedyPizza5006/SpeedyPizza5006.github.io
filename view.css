@@ -1,0 +1,50 @@
+#background{
+    background-color:CornflowerBlue;
+    width:100%;
+    height:100%;
+    margin:0px;
+}
+
+#title{
+  font-family: "Bad Script";
+  font-size:64px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:20px;
+}
+
+button{
+    background-color: darkorchid;
+    border:none;
+    margin-left:10px;
+    width:100px;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    font-family: "Averia Sans Libre";
+    font-size: 25px;
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    background-color:white;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
